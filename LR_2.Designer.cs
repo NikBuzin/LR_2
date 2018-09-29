@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(848, 410);
             this.Name = "LR_2";
             this.Text = "LR_2";
+            this.Load += new System.EventHandler(this.LR_2_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.LR_2_Paint);
             this.ResumeLayout(false);
 
